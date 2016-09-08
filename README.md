@@ -44,7 +44,7 @@ ctrl + (0): resets font-size
 ###Notes:
 
 1) The reader is based on a modified version EPUB js library, since it normally won't work in chrome apps.
-It can be buggy at times, but it works well for me 99% of what I've tried.
+It can be buggy at times, but it works well with 99% of what I've tried.
 
 2) The paging can be a bit fuzzy at times, what I mean is some books might be shown as only having 4 giant pages or similar,
 but since scroll height is automatically saved I don't mind it much.
