@@ -1,0 +1,71 @@
+//this file is read via ajax to get list of themes
+//please keep the layout as is or it will break 
+
+
+//mixin to apply colors to page
+@mixin applyTheme 
+($color1,$color2,$color3,$color4,$color5,$color6,$bgcol1,$bgcol2) {
+  //iframe colors
+  &:not(#main) {
+    color:$color1;background:$bgcol1 !important; 
+    p i {color:$color2 !important;}
+    .bold,.cfmh {color:$color3 !important;}
+    a, .underline {color:$color3 !important;}
+    span.type1{color:$color2 !important;font-style:italic;}
+    span.type2{color:$color4 !important;}
+    span.type3{color:$color5 !important;font-style:italic;}
+  }
+  //main page colors
+  &#main {
+    background-color:$bgcol1;
+    #feedbackmsg {background-color:$bgcol2;color:$color6;}
+    #prompt {
+      color: $color1;
+      span {color:$color3;font-style:italic;}
+      span:last-child {font-size:85%;color:$color5;}
+    }
+    ::-webkit-scrollbar-track{background-color:$bgcol1;}
+  }
+}
+
+
+//dark theme 1 (default)
+body.Dark1 {
+  $color1:#97ab97;//general text color
+  $color2:#8da2e4;//dialog color
+  $color3:#cc5635;//bold & underlined
+  $color4:#feedba;//titles,places,etc color
+  $color5:#cc9a9a;//in-parenthesis color
+  $color6:#cccccc;//color of popup text
+  $bgcol1:#353030;//general bg color
+  $bgcol2:#462c2c;//popup bg color
+  @include applyTheme($color1,$color2,$color3,$color4,$color5,$color6,$bgcol1,$bgcol2);
+}
+
+
+//dark theme 2
+body.Dark2 {
+  $color1:#979eab;//general text color
+  $color2:#8da2e4;//dialog color
+  $color3:#cc5635;//bold & underlined
+  $color4:#feedba;//titles,places,etc color
+  $color5:#cc9a9a;//in-parenthesis color
+  $color6:#cccccc;//color of popup text
+  $bgcol1:#343c47;//general bg color
+  $bgcol2:#462c2c;//popup bg color
+  @include applyTheme($color1,$color2,$color3,$color4,$color5,$color6,$bgcol1,$bgcol2);
+}
+
+
+//light theme 1
+body.Light1 {
+  $color1:#333333;//general text color
+  $color2:#0031c7;//dialog color
+  $color3:#591806;//bold & underlined
+  $color4:#a66c00;//titles,places,etc color
+  $color5:#660000;//in-parenthesis color
+  $color6:#333333;//color of popup text
+  $bgcol1:#f4f4f4;//general bg color
+  $bgcol2:#f4f4f4;//popup bg color
+  @include applyTheme($color1,$color2,$color3,$color4,$color5,$color6,$bgcol1,$bgcol2);
+}

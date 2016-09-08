@@ -1,0 +1,100 @@
+body.Dark1:not(#main) {
+  color: #97ab97;
+  background: #353030 !important; }
+  body.Dark1:not(#main) p i {
+    color: #8da2e4 !important; }
+  body.Dark1:not(#main) .bold, body.Dark1:not(#main) .cfmh {
+    color: #cc5635 !important; }
+  body.Dark1:not(#main) a, body.Dark1:not(#main) .underline {
+    color: #cc5635 !important; }
+  body.Dark1:not(#main) span.type1 {
+    color: #8da2e4 !important;
+    font-style: italic; }
+  body.Dark1:not(#main) span.type2 {
+    color: #feedba !important; }
+  body.Dark1:not(#main) span.type3 {
+    color: #cc9a9a !important;
+    font-style: italic; }
+body.Dark1#main {
+  background-color: #353030; }
+  body.Dark1#main #feedbackmsg {
+    background-color: #462c2c;
+    color: #cccccc; }
+  body.Dark1#main #prompt {
+    color: #97ab97; }
+    body.Dark1#main #prompt span {
+      color: #cc5635;
+      font-style: italic; }
+    body.Dark1#main #prompt span:last-child {
+      font-size: 85%;
+      color: #cc9a9a; }
+  body.Dark1#main ::-webkit-scrollbar-track {
+    background-color: #353030; }
+
+body.Dark2:not(#main) {
+  color: #979eab;
+  background: #343c47 !important; }
+  body.Dark2:not(#main) p i {
+    color: #8da2e4 !important; }
+  body.Dark2:not(#main) .bold, body.Dark2:not(#main) .cfmh {
+    color: #cc5635 !important; }
+  body.Dark2:not(#main) a, body.Dark2:not(#main) .underline {
+    color: #cc5635 !important; }
+  body.Dark2:not(#main) span.type1 {
+    color: #8da2e4 !important;
+    font-style: italic; }
+  body.Dark2:not(#main) span.type2 {
+    color: #feedba !important; }
+  body.Dark2:not(#main) span.type3 {
+    color: #cc9a9a !important;
+    font-style: italic; }
+body.Dark2#main {
+  background-color: #343c47; }
+  body.Dark2#main #feedbackmsg {
+    background-color: #462c2c;
+    color: #cccccc; }
+  body.Dark2#main #prompt {
+    color: #979eab; }
+    body.Dark2#main #prompt span {
+      color: #cc5635;
+      font-style: italic; }
+    body.Dark2#main #prompt span:last-child {
+      font-size: 85%;
+      color: #cc9a9a; }
+  body.Dark2#main ::-webkit-scrollbar-track {
+    background-color: #343c47; }
+
+body.Light1:not(#main) {
+  color: #333333;
+  background: #f4f4f4 !important; }
+  body.Light1:not(#main) p i {
+    color: #0031c7 !important; }
+  body.Light1:not(#main) .bold, body.Light1:not(#main) .cfmh {
+    color: #591806 !important; }
+  body.Light1:not(#main) a, body.Light1:not(#main) .underline {
+    color: #591806 !important; }
+  body.Light1:not(#main) span.type1 {
+    color: #0031c7 !important;
+    font-style: italic; }
+  body.Light1:not(#main) span.type2 {
+    color: #a66c00 !important; }
+  body.Light1:not(#main) span.type3 {
+    color: #660000 !important;
+    font-style: italic; }
+body.Light1#main {
+  background-color: #f4f4f4; }
+  body.Light1#main #feedbackmsg {
+    background-color: #f4f4f4;
+    color: #333333; }
+  body.Light1#main #prompt {
+    color: #333333; }
+    body.Light1#main #prompt span {
+      color: #591806;
+      font-style: italic; }
+    body.Light1#main #prompt span:last-child {
+      font-size: 85%;
+      color: #660000; }
+  body.Light1#main ::-webkit-scrollbar-track {
+    background-color: #f4f4f4; }
+
+/*# sourceMappingURL=themes.css.map */

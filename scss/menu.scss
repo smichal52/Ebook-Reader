@@ -1,0 +1,63 @@
+//nav bar icons
+.micon {
+    position:absolute;right:3px;z-index:2;opacity:0.7;cursor:pointer;top:0px;
+    &:hover {opacity:0.9;} &:active {opacity:1;}
+}
+#menuicon {right:auto;left:3px}
+#libraryicon {right:auto;left:30px}  
+
+//main menu
+#mainmenu {
+  display:none;
+  position:absolute;
+  top:27px;
+  left:3px;
+  max-width:calc(100% - 12px);
+  width:auto;
+  height:auto;
+  border-radius:3px;
+  background-color: #eee;
+  opacity:0.1;
+  border:1px solid #aaa;
+  z-index:10;
+  box-sizing:border-box;
+  padding: 0px 10px;
+  &:hover {opacity:1;}
+  &.active {opacity:1;}
+  
+  //menu elements basic styles
+  > div {
+    height:30px;display:inline;
+    > * {
+      display:inline-block;
+      margin: 3px 0px 0px 5px;
+      cursor: pointer;
+      opacity: 0.5;
+      &:hover {opacity:0.8}
+      &:active {opacity:1}
+      height:30px;
+    }
+  }
+  
+  //font control
+  #fontcontrol {
+    span {
+      font-size: 21px;
+      vertical-align: text-bottom;
+      display: inline-block;
+      color: brown;
+      font-weight: bold;
+    }
+  }
+  
+  //theme control
+  #themecontrol {
+    div {
+      &:first-child{margin-left:28px;}
+      height:30px;
+      width:30px;
+      border-radius:4px;
+      border: 2px outset silver;
+    }
+  }
+}

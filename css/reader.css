@@ -1,0 +1,32 @@
+body {
+  font-size: 1.8em !important;
+  font-family: calibri !important;
+  padding: 20px !important;
+  cursor: url(../assets/browndot.png), default;
+  padding-top: 0px !important; }
+  body *, body *::first-letter {
+    background: transparent !important;
+    background-color: transparent !important;
+    font-family: inherit !important;
+    line-height: normal;
+    font-size: inherit !important; }
+  body span:not(.tigerwolf), body p:not(.tigerwolf) {
+    color: inherit; }
+  body div, body p {
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; }
+  body sup a {
+    font-size: initial !important; }
+  body svg {
+    height: 950px; }
+  body img[alt="cover"] {
+    height: 950px !important; }
+  body p, body a, body h1, body h2, body h3, body h4, body h5, body h6, body div, body br, body li, body td, body article {
+    -o-user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    user-select: text; }
+
+/*# sourceMappingURL=reader.css.map */

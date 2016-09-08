@@ -1,0 +1,33 @@
+//basic styling
+body {
+  font-size: 1.8em !important;
+  font-family: calibri !important;
+  padding: 20px !important;
+  cursor: url(../assets/browndot.png), default;  
+  padding-top:0px !important;
+  *, *::first-letter {
+    background: transparent !important;
+    background-color: transparent !important;
+    font-family: inherit !important;
+    line-height:normal;
+    font-size:inherit !important; 
+  }
+  span:not(.tigerwolf),p:not(.tigerwolf) {color: inherit;}
+  div, p {
+    padding-bottom:15px !important;
+    padding-top:15px !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+  }
+  sup a {
+    font-size:initial !important;
+  }
+  svg {height:950px;}
+  img[alt="cover"] {height:950px !important;}
+  p,a,h1,h2,h3,h4,h5,h6,div,br,li,td,article {
+    -o-user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}

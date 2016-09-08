@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<title>Smichal Reader</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/main.css"/>
+<link rel="stylesheet" href="css/dialogs.css"/>
+<link rel="stylesheet" href="css/menu.css"/>
+<link rel="stylesheet" href="css/themes.css"/>
+<link rel="shortcut icon" href="assets/ico2.png"/>
+<style>
+  html,body{width:100%;height:100%;}
+</style>
+<body id="main">
+  <input type="file" id="dropzone">
+  <div id="info"></div>
+  <img id="fstoggle" class="micon" src="assets/fs.png" height="23" width="23" alt title="Fullscreen"/>
+  <img id="menuicon" class="micon" src="assets/menu.png" height="23" width="23" alt title="Menu"/>
+  <img id="libraryicon" class="micon" src="assets/library.png" height="23" width="23" alt title="Library"/>
+  <div id="prevPage" title="middle click to temporarily hide pager"></div>
+  <div id="nextPage" title="middle click to temporarily hide pager"></div>
+  <div id="area"><div id="innerArea"></div></div>
+  <div id="prompt">Right click to select epub<br>or drag and drop file</div>
+  <div class="feedbackmsg-wrapper"><div id="feedbackmsg"></div></div>
+  <div id="hidefilter"></div>
+  <div id="loading"></div>
+  <div id="mainmenu">
+    <div id="fontcontrol">
+      <img src="assets/font2.png" height="30" width="30" alt title="Decrease font-size"/>
+      <img src="assets/font1.png" height="30" width="30" alt title="Increase font-size"/>
+      <span title="Reset font-size">100%</span>
+    </div>
+    <div id="themecontrol"></div>
+  </div>
+  <div id="library" title="close library"><ul></ul></div>
+  <!-- js files and libs -->
+  <script src="js/jquery.min.js" type="text/javascript"></script> 
+  <script src="js/epubCustom.js" type="text/javascript"></script> 
+  <script src="js/zip.min.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script> 
+  <script src="js/themes.js" type="text/javascript"></script> 
+  <script src="js/fonts.js" type="text/javascript"></script> 
+  <script src="js/utils.js" type="text/javascript"></script> 
+  <script src="js/chromeApp.js" type="text/javascript"></script>
+  <script src="js/library.js" type="text/javascript"></script> 
+</body>
+</html>
