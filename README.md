@@ -1,2 +1,2 @@
 # YuGiOh
-Repository for YuGiOh deck viewer
+Repository for YuGiOh deck viewer!!!
