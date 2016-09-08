@@ -31,6 +31,8 @@ Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 6) automatically saves the scroll height you are at
 
+7) clickable references tha open as popups (so you dont need to scroll to them and back)
+
 
 
 
