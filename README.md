@@ -16,7 +16,7 @@ An ebook reader chrome packaged app that suits my specific needs.
 
 1) .epub file only support
 
-2) a few themes (you can define more in themes/scss)
+2) a few themes (you can define more in scss/themes)
 
 3) a simple local file chooser (no url support atm)
 
