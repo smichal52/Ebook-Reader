@@ -4,13 +4,13 @@ An ebook reader chrome packaged app that suits my specific needs.
 
 I made it for 2 reasons:
 
-1) I have customized the theme to my specific needs (colors,font-sizes,line-heights,etc...)
+1) I have customized the theme to my specific needs (colors,font-sizes,line-heights,etc...)\n
 2) It parses special text (i.e text between double quotes, brackets, etc) and displays it with different style
 
 What it has:
 
 1) .epub file only support
-2) a few themes (you can define more in themes/scss)
+2) a few themes (you can define more in themes/scss)\n
 3) a simple local file chooser (no url support atm)
 4) a simple library that automatically stores what books you've opened and what page you left them at
 5) basic font handling (increase/decrease/reset size)
