@@ -3,6 +3,11 @@
 An ebook reader chrome packaged app that suits my specific needs.
 
 
+##How to install
+Open chrome extensions page, enable developer mode, and select "Load unpacked extension",
+Then you can pack it yourself as a chrome App by selecting "Pack extension"
+
+
 
 ###I made it for 2 reasons:
 
