@@ -9,7 +9,7 @@ Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 
 
-### I made it for 2 reasons:
+##### I made it for 2 reasons:
 
 1) I have customized the theme to my specific needs (colors,font-sizes,line-heights,etc...)
 
