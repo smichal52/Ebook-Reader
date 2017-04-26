@@ -11,7 +11,7 @@ Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 ##### I made it for 2 reasons:
 
-1) I have customized the theme to my specific needs (colors,font-sizes,line-heights,etc...)
+1) I have customized the theme to my specific preferences (colors, font-sizes, line-heights, etc...)
 
 2) It parses special text (i.e text between double quotes, brackets, etc) and displays it with different style
 
