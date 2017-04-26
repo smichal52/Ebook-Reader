@@ -1,15 +1,15 @@
-#Smichal's Ebook Reader
+# Smichal's Ebook Reader
 
 An ebook reader chrome packaged app that suits my specific needs.
 
 
-##How to install
+## How to install
 Open chrome extensions page, enable developer mode, press "Load unpacked extension", and select the entire project folder.
 Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 
 
-###I made it for 2 reasons:
+### I made it for 2 reasons:
 
 1) I have customized the theme to my specific needs (colors,font-sizes,line-heights,etc...)
 
@@ -17,7 +17,7 @@ Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 
 
-###What it has:
+### What it has:
 
 1) .epub file only support
 
@@ -36,7 +36,7 @@ Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 
 
-###keyboard shortcuts:
+### keyboard shortcuts:
 
 ctrl + mouse wheel: changes font size
 
@@ -48,7 +48,7 @@ ctrl + (0): resets font-size
 
 
 
-###Notes:
+### Notes:
 
 1) The reader is based on my modified version of EPUB.js library, since it normally won't work in chrome apps.
 It can be buggy at times, but it works well with 99% of what I've tried.
