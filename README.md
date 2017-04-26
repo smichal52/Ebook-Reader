@@ -1,6 +1,6 @@
 # Smichal's Ebook Reader
 
-An ebook reader chrome packaged app that suits my specific needs. Built using jQuery and sass.
+An ebook reader chrome packaged app that suits my specific needs. Built using jQuery and Sass.
 
 
 ## How to install
