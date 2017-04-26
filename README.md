@@ -15,8 +15,8 @@ Then you can pack it yourself as a chrome App by selecting "Pack extension"
 
 2) It parses special text (i.e text between double quotes, brackets, etc) and displays it with different style
 
-sample image: https://raw.githubusercontent.com/smichal52/Ebook-Reader/master/sample.png
-
+Sample image: 
+![alt text](https://raw.githubusercontent.com/smichal52/Ebook-Reader/master/sample.png)
 
 
 ### What it has:
