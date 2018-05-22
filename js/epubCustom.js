@@ -5820,10 +5820,8 @@ EPUBJS.Render.Iframe.prototype.load = function(contents, url){
         $(render.docEl).find('html').css('font-size',window.savedFontSize+"%");//fix2 add saved font-size
         $(render.bodyEl).html(cont1);//fix2 add body html
         $(render.headEl).html(cont2);//fix2 add head html
-        $(render.headEl).append(//fix2 added css files
-         '<link id="readercss" rel="stylesheet" type="text/css" href="css/reader.css" />\n\
-          <link id="readercss" rel="stylesheet" type="text/css" href="css/themes.css" />');
-
+        $.ajax({url:'css/reader.css'}).done(function(resp){$(render.headEl).append('<style>'+resp+'</style>');});
+        $.ajax({url:'css/themes.css'}).done(function(resp){$(render.headEl).append('<style>'+resp+'</style>');});
 		render.window.addEventListener("resize", render.resized.bind(render), false);
 
 		// Reset the scroll position
