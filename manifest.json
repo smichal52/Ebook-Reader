@@ -1,7 +1,7 @@
 {
   "name": "Smichal Reader",
   "description": "Smichal's epub book reader",
-  "version": "1.00",
+  "version": "1.01",
   "manifest_version": 2,
   "app": {
     "background": {
